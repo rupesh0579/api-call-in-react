@@ -6,7 +6,6 @@ import { useEffect, useState } from 'react';
 
 const Home = () => {
   const [apiData, setAPiData] = useState();
-  // const [page, setPage] = useState(1);
 
   useEffect(() => {
     async function callApi() {
@@ -53,7 +52,6 @@ const Home = () => {
             )}
         </tbody>
       </table>
-
     </div>
   )
 }
