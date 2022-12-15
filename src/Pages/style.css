@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: auto;
+}
+
+.api-data {
+    max-width: 1500px;
+    /* border: 1px solid #00bcd4; */
+    background-color: #efefef33;
+    padding: 15px;
+    overflow: auto;
+    margin: auto;
+    ;
+    border-radius: 8px;
+}
+
+table {
+    width: 100%;
+    font-size: 13px;
+    color: rgb(70, 19, 19);
+    white-space: nowrap;
+    border-collapse: collapse;
+}
+
+table>thead {
+    background-color: #094974;
+    color: white;
+}
+
+table>thead th {
+    padding: 15px;
+}
+
+table th,
+table td {
+    border: 1px solid rgb(220, 228, 112);
+    text-align: center
+}
+
+
+table>tbody>tr>td>img {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 4px solid white;
+}
